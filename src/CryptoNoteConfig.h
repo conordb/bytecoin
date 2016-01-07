@@ -94,8 +94,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  200;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  8080;
-const int      RPC_DEFAULT_PORT                              =  8081;
+const int      P2P_DEFAULT_PORT                              =  23455;
+const int      RPC_DEFAULT_PORT                              =  23454;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -114,15 +114,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[] = "93467628927eaa0b13a4e52e61864a75aa4
 
 const char* const SEED_NODES[] = {
   "seed.bytecoin.org:8080",
-  "85.25.201.95:8080",
-  "85.25.196.145:8080",
-  "85.25.196.146:8080",
-  "85.25.196.144:8080",
-  "5.199.168.138:8080",
-  "62.75.236.152:8080",
-  "85.25.194.245:8080",
-  "95.211.224.160:8080",
-  "144.76.200.44:8080"
+  "211.30.195.126:23455",
+
 };
 
 struct CheckpointData {
